@@ -1,6 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Default Starter',
+    title: 'React Design',
+    description: 'React design with Figma',
+    keywords: 'react desin,figma design,sketch design'
   },
   plugins: ['gatsby-plugin-react-helmet'],
 }
