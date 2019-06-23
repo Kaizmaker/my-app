@@ -3,6 +3,7 @@ import React from 'react'
 import Link from 'gatsby-link'
 import logo from '../images/K.svg'
 import './Header.css'
+import StripeCheckout from 'react-stripe-checkout'
 
 
 // 原本的標題設定 const Header = ({ siteTitle }) => ( )
@@ -33,7 +34,23 @@ handleScroll = (event) => {
   }
 }
 
+handlePurchase = (token) => {
+const amount = 5000
+const description = "My awesome product"
 
+const bodyObject = {
+  tokenId: token.id,
+  email: token.email,
+  description,
+  amount
+}
+
+fetch('http://localhost:9000/stripe-charge',{
+  method: 'POST',
+  body: JSON.stringify(bodyObject)
+})
+
+}
 
   render() {
     return (
@@ -46,7 +63,16 @@ handleScroll = (event) => {
       <Link to="/courses">關於我</Link>
       <Link to="/download">UI設計</Link>
       <Link to="/workshop">UX分析</Link>
-      <Link to="/buy"><button>Persona</button></Link>
+
+      {/* 運用Stripe 來新增購買連結 */}
+      <StripeCheckout
+      amount={5000}
+      image="https://i.imgur.com/Qkqepcsl.png"
+      token={this.handlePurchase}
+      stripeKey={'pk_test_bZm5ZwpHCxcyAVA7qSWgal1P0022VniedK'}
+>
+      <button>購買</button>
+      </StripeCheckout>
     </div>   
   </div>
       
