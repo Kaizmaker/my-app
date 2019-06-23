@@ -1,0 +1,72 @@
+/* 組件開頭可大寫命名 */
+/* 要先在相關的JS檔導入該CSS文件 */
+
+.Header {
+    /* position: fixed : 把當前的組件放在背景裡 */
+    position: fixed;
+    width: 100%;
+    padding: 50px 0;
+    /* z-index: 100 : 滑動時可存在前面 根據數值做判斷 */
+    z-index: 100;
+    /* transition : 轉移效果 */
+    transition: 0.8s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+/* HeaderScrolled : 標題狀態事件的CSS */
+.HeaderScrolled {
+    background: rgba(31, 13, 43, 0.9);
+    padding: 15px 0;
+}
+
+
+.HeaderGroup {
+    max-width: 800px;
+    margin: 0 auto;
+    display: grid;
+    /* grid-template-columns: repeat(5,auto);
+: 內容物的數量 平均分配間距 } */
+    grid-template-columns: repeat(5,auto);
+    align-items: center;
+    justify-items: center;
+}
+
+.Header a {
+    color: white;
+    font-weight: 700;
+}
+
+.Header button {
+    padding: 8px 20px;
+    font-size: 20px;
+    background: #56CCF2;
+    border: none;
+    font-weight: 700px;
+    border-radius: 10px;
+    outline: none;
+     /* cursor: pointer : 鼠標改變形式 */
+    cursor: pointer;
+    /* transition: 1s : 速度放慢１s */
+    transition: 1s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+/* button:hover : 滑鼠到按鈕上改變形式 */
+.Header button:hover{
+    background: white;
+    /* box-shadow : 陰影 */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+/* transform: translateY : 向Ｙ浮動 rotateY(50deg) : 向內縮*/
+transform: translateY(-3px) rotateX(20deg);
+}
+
+/* @media : 響應式設備上 */
+
+@media (max-width: 640px) {
+    .Header{
+        padding: 15px 0;
+    }
+    .HeaderGroup {
+        grid-template-columns: repeat(4,auto);
+    }
+    .Header a:nth-child(4) {
+        display: none;
+    }
+}
