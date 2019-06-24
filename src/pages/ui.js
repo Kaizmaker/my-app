@@ -39,9 +39,13 @@ const IndexPage = () => (
   <div className="Hero">
 <div className="HeroGroup"> 
 <h1>UI設計</h1>
+<br></br> 
+<br></br> 
     <p>在乎使用者數據的介面設計</p>
     <p>是介面設計師的重要使命</p>
+    <br></br>
 
+    <a href="https://www.figma.com/proto/SY1fXMc2FVMsatyPnS2vZfzI/%E4%BD%9C%E5%93%81%E9%9B%86?node-id=0%3A1&viewport=1162%2C509%2C0.47714319825172424&scaling=min-zoom&redirected=1">UI 作品觀賞</a>
 {/* <Link to="/page-2/">參觀我的專案</Link>    */}
   {/* <div className="Logos">
       <img src={require('../images/logo-sketch.png')}
@@ -94,14 +98,14 @@ const IndexPage = () => (
         </div>
     </div>
     <Section 
-    image={require('../images/Wave2.png')}
-    logo={require('../images/logo-react.png')}
-    title="運用React設計UI"
-    text="使用React構建網站以及有效率的組件庫，使產品快速開發。 運用Grid、 CSS、SVG動畫，微交互、JSON等技術"
+    image={require('../images/ui.png')}
+    logo={require('../images/kaiz.png')}
+    title="UI是藝術數據結合體"
+    text="UI是感性與理性的交互，透過設計師之手編織出最棒的交響樂曲"
     />
 
 { /* 從jason導入數據設計 */ }
-    <SectionCaption>React設計知識</SectionCaption>
+    {/* <SectionCaption>React設計知識</SectionCaption>
     <SectionCellGroup>
     {staticdata.cells.map(cell => (
       <Cell
@@ -112,7 +116,7 @@ const IndexPage = () => (
 
 
 
-    </SectionCellGroup>
+    </SectionCellGroup> */}
   </div>
 )
 

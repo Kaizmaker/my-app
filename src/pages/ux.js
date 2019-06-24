@@ -39,6 +39,8 @@ const IndexPage = () => (
   <div className="Hero">
 <div className="HeroGroup"> 
 <h1>UX分析</h1>
+<br></br> 
+<br></br> 
     <p>善於數據分析、心理學、行銷企劃</p>
     <p>導出的使用者經驗報告</p>
 
@@ -94,14 +96,14 @@ const IndexPage = () => (
         </div>
     </div>
     <Section 
-    image={require('../images/Wave2.png')}
-    logo={require('../images/logo-react.png')}
-    title="運用React設計UI"
-    text="使用React構建網站以及有效率的組件庫，使產品快速開發。 運用Grid、 CSS、SVG動畫，微交互、JSON等技術"
+    image={require('../images/dashboard.jpg')}
+    logo={require('../images/kaiz.png')}
+    title="UX行為經驗分析"
+    text="善用UX可以完整開發出真正使用者想要的產品，使執行方向是精準且正確"
     />
 
 { /* 從jason導入數據設計 */ }
-    <SectionCaption>React設計知識</SectionCaption>
+    {/* <SectionCaption>React設計知識</SectionCaption>
     <SectionCellGroup>
     {staticdata.cells.map(cell => (
       <Cell
@@ -112,7 +114,7 @@ const IndexPage = () => (
 
 
 
-    </SectionCellGroup>
+    </SectionCellGroup> */}
   </div>
 )
 

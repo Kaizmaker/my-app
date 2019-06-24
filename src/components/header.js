@@ -34,6 +34,8 @@ handleScroll = (event) => {
   }
 }
 
+// 付款設定
+
 handlePurchase = (token) => {
 const amount = 5000
 const description = "My awesome product"
@@ -60,7 +62,7 @@ fetch('http://localhost:9000/stripe-charge',{
       <div className="HeaderGroup">
       <Link to="/"><img src={logo} width="30"/></Link>
       {/* 第二種寫法<Link to="/"><img src={require('../images/K.svg')} width="30"/></Link> */}
-      <Link to="/about"></Link>
+      <Link to="/">首頁</Link>
       <Link to="/ui">UI設計</Link>
       <Link to="/ux">UX分析</Link>
 

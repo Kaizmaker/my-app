@@ -39,10 +39,19 @@ const IndexPage = () => (
   <div className="Hero">
 <div className="HeroGroup"> 
 <h1>React design</h1>
+<br></br>
     <p>我是Kaiz，是UI/Ux設計師</p>
     <p>好的設計等於良好的使用者體驗</p>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    
 
-    <Link to="/ui/">參觀我的專案</Link>   
+    <Link to="/ui/">參觀我的專案</Link>
+    <br></br>
     <div className="Logos">
       <img src={require('../images/logo-sketch.png')}
       width="50" />
@@ -101,7 +110,7 @@ const IndexPage = () => (
     />
 
 { /* 從jason導入數據設計 */ }
-    <SectionCaption>React設計知識</SectionCaption>
+    <SectionCaption>網站運用的React設計知識</SectionCaption>
     <SectionCellGroup>
     {staticdata.cells.map(cell => (
       <Cell
