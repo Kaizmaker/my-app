@@ -66,7 +66,7 @@ fetch('http://localhost:9000/stripe-charge',{
       <Link to="/ui">UI設計</Link>
       <Link to="/ux">UX分析</Link>
       {/* <Link to="/ux">專案參與</Link> */}
-      <a href="https://trends.uxdesign.cc/">專案參與</a>
+      <a href="https://kaizmaker.github.io/webdesign/">專案參與</a>
 
       {/* 運用Stripe 來新增購買連結 */}
       <StripeCheckout
@@ -75,7 +75,7 @@ fetch('http://localhost:9000/stripe-charge',{
       token={this.handlePurchase}
       stripeKey={'pk_test_bZm5ZwpHCxcyAVA7qSWgal1P0022VniedK'}
 >
-      <button>購買</button>
+      <button>支持</button>
       </StripeCheckout>
     </div>   
   </div>
