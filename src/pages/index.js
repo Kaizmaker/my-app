@@ -37,7 +37,9 @@ padding: 0 20px;
 const IndexPage = () => (
   <div>
   <div className="Hero">
-<div className="HeroGroup"> 
+  <div className="HeroGroup"> 
+  
+
 <h1>React design</h1>
 <br></br>
     <p>我是Kaiz，是UI/Ux設計師</p>

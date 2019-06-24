@@ -36,13 +36,18 @@ padding: 0 20px;
 
 const IndexPage = () => (
   <div>
-  <div className="Hero">
+  <div className="Hero2">
 <div className="HeroGroup"> 
 <h1>UX分析</h1>
 <br></br> 
 <br></br> 
     <p>善於數據分析、心理學、行銷企劃</p>
     <p>導出的使用者經驗報告</p>
+    <br></br>
+    <br></br>
+    <br></br>
+
+    <a href="https://trends.uxdesign.cc/">UX趨勢閱讀</a>
 
     {/* <Link to="/page-3/">參觀我的專案</Link>   
     <div className="Logos">
@@ -96,7 +101,7 @@ const IndexPage = () => (
         </div>
     </div>
     <Section 
-    image={require('../images/dashboard.jpg')}
+    image={require('../images/dashboard2.jpg')}
     logo={require('../images/kaiz.png')}
     title="UX行為經驗分析"
     text="善用UX可以完整開發出真正使用者想要的產品，使執行方向是精準且正確"

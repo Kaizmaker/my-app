@@ -36,13 +36,15 @@ padding: 0 20px;
 
 const IndexPage = () => (
   <div>
-  <div className="Hero">
+  <div className="Hero1">
 <div className="HeroGroup"> 
 <h1>UI設計</h1>
 <br></br> 
 <br></br> 
     <p>在乎使用者數據的介面設計</p>
     <p>是介面設計師的重要使命</p>
+    <br></br>
+    <br></br>
     <br></br>
 
     <a href="https://www.figma.com/proto/SY1fXMc2FVMsatyPnS2vZfzI/%E4%BD%9C%E5%93%81%E9%9B%86?node-id=0%3A1&viewport=1162%2C509%2C0.47714319825172424&scaling=min-zoom&redirected=1">UI 作品觀賞</a>
