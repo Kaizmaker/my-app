@@ -65,6 +65,8 @@ fetch('http://localhost:9000/stripe-charge',{
       <Link to="/">首頁</Link>
       <Link to="/ui">UI設計</Link>
       <Link to="/ux">UX分析</Link>
+      {/* <Link to="/ux">專案參與</Link> */}
+      <a href="https://trends.uxdesign.cc/">專案參與</a>
 
       {/* 運用Stripe 來新增購買連結 */}
       <StripeCheckout

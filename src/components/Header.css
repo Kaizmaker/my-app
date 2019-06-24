@@ -25,7 +25,7 @@
     display: grid;
     /* grid-template-columns: repeat(5,auto);
 : 內容物的數量 平均分配間距 } */
-    grid-template-columns: repeat(5,auto);
+    grid-template-columns: repeat(6,auto);
     align-items: center;
     justify-items: center;
 }
