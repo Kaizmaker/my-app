@@ -40,7 +40,7 @@ const IndexPage = () => (
   <div className="HeroGroup"> 
   
 
-<h1>React design</h1>
+<h1>Kaiz design</h1>
 <br></br>
     <p>我是Kaiz，是UI/Ux設計師</p>
     <p>好的設計等於良好的使用者體驗</p>
