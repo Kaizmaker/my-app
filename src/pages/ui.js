@@ -38,12 +38,12 @@ const IndexPage = () => (
   <div>
   <div className="Hero">
 <div className="HeroGroup"> 
-<h1>React design</h1>
-    <p>我是Kaiz，是UI/Ux設計師</p>
-    <p>好的設計等於良好的使用者體驗</p>
+<h1>UI設計</h1>
+    <p>在乎使用者數據的介面設計</p>
+    <p>是介面設計師的重要使命</p>
 
-    <Link to="/ui/">參觀我的專案</Link>   
-    <div className="Logos">
+{/* <Link to="/page-2/">參觀我的專案</Link>    */}
+  {/* <div className="Logos">
       <img src={require('../images/logo-sketch.png')}
       width="50" />
       <img src={require('../images/logo-figma.png')}
@@ -56,7 +56,7 @@ const IndexPage = () => (
       width="50" />
       <img src={require('../images/logo-trello.png')}
       width="50" />
-</div>
+ </div> */}
 
 
 

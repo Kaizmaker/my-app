@@ -60,9 +60,9 @@ fetch('http://localhost:9000/stripe-charge',{
       <div className="HeaderGroup">
       <Link to="/"><img src={logo} width="30"/></Link>
       {/* 第二種寫法<Link to="/"><img src={require('../images/K.svg')} width="30"/></Link> */}
-      <Link to="/courses">關於我</Link>
-      <Link to="/download">UI設計</Link>
-      <Link to="/workshop">UX分析</Link>
+      <Link to="/about"></Link>
+      <Link to="/ui">UI設計</Link>
+      <Link to="/ux">UX分析</Link>
 
       {/* 運用Stripe 來新增購買連結 */}
       <StripeCheckout

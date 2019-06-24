@@ -1,51 +1,51 @@
 {
     "cells": [
         {
-"title": "Intro to React" ,
+"title": "React設計知識" ,
 "image": "https://i.imgur.com/nJGFyUl.png"
         },
         {
-            "title": "Intro to C#" ,
+            "title": "使用CSS的設計樣式" ,
 "image": "https://i.imgur.com/nJGFyUl.png"
         },
         {
-            "title": "Intro to Visual Studio" ,
+            "title": "CSS網格的響應式佈局" ,
 "image": "https://i.imgur.com/nJGFyUl.png"
         },
         {
-            "title": "Intro to Figma" ,
+            "title": "交互和動畫" ,
 "image": "https://i.imgur.com/nJGFyUl.png"
         },
         {
-            "title": "Intro to Sketch" ,
+            "title": "SVG動畫" ,
 "image": "https://i.imgur.com/nJGFyUl.png"
         },
         {
-            "title": "Intro to XD" ,
+            "title": "運用Components與Props" ,
 "image": "https://i.imgur.com/nJGFyUl.png"
         },
         {
-            "title": "Intro to SQL" ,
+            "title": "運用States與Events" ,
 "image": "https://i.imgur.com/nJGFyUl.png"
         },
         {
-            "title": "Intro to ASP.net" ,
+            "title": "運用Styled Components" ,
 "image": "https://i.imgur.com/nJGFyUl.png"
         },
         {
-            "title": "Intro to Xmind" ,
+            "title": "使用JSON的靜態數據" ,
 "image": "https://i.imgur.com/nJGFyUl.png"
         },
         {
-            "title": "Intro to Trello" ,
+            "title": "GraphQL與Contentful" ,
 "image": "https://i.imgur.com/nJGFyUl.png"
         },
         {
-            "title": "Intro to PS" ,
+            "title": "使用Netlify使用" ,
 "image": "https://i.imgur.com/nJGFyUl.png"
         },
         {
-            "title": "Intro to Trello" ,
+            "title": "串連Stripe付款功能" ,
 "image": "https://i.imgur.com/nJGFyUl.png"
         }
     ]
