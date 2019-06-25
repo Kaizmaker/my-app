@@ -62,7 +62,7 @@ fetch('http://localhost:9000/stripe-charge',{
       <div className="HeaderGroup">
       <Link to="/"><img src={logo} width="30"/></Link>
       {/* 第二種寫法<Link to="/"><img src={require('../images/K.svg')} width="30"/></Link> */}
-      <a href="https://www.figma.com/proto/FgzwtyfZxrs3yqgOEPFXpxhM/Kaiz-persona?node-id=1%3A2&viewport=409%2C499%2C0.3329549729824066&scaling=min-zoom｀">關於我</a>
+      <a href="https://www.figma.com/proto/FgzwtyfZxrs3yqgOEPFXpxhM/Kaiz-persona?node-id=0%3A1&viewport=1812%2C615%2C0.7295928001403809&scaling=min-zoom&redirected=1">關於我</a>
       {/* <Link to="/">關於我</Link> */}
       <Link to="/ui">UI設計</Link>
       <Link to="/ux">UX分析</Link>
