@@ -102,6 +102,14 @@ const IndexPage = () => (
         // title="dashboard"
         // text="儀表板介面"
         image={require('../images/dashboard.jpg')}/>
+      <Card 
+        // title="dashboard"
+        // text="儀表板介面"
+        image={require('../images/Settings.jpg')}/>
+      <Card 
+        // title="dashboard"
+        // text="儀表板介面"
+        image={require('../images/404 page.png')}/>
         </div>
     </div>
     <Section 
