@@ -4,32 +4,23 @@ import Helmet from 'react-helmet'
 
 import Header from '../components/header'
 import './index.css'
-import favicon16 from "../images/k.png";
-
-
+import Footer from '../components/Footer';
 
 const Layout = ({ children, data }) => (
   <div>
     <Helmet
       title={data.site.siteMetadata.title}
       meta={[
-        { name: 'description', content:
-         data.site.siteMetadata.description },
-        { name: 'keywords', content:
-        data.site.siteMetadata.keywords },
+        { name: 'description', content: data.site.siteMetadata.description },
+        { name: 'keywords', content: data.site.siteMetadata.keywords },
       ]}
-
-// icon置入設計
-
-      link={[
-  { rel: 'icon', type: 'image/png', sizes: "16x16", href: `${favicon16}` }
-]}
-
     />
     <Header />
-      {children()}
-    </div>
-  
+    {children()}
+    <Footer data={data}>
+      網站由React建置 Figma設計 歡迎聯絡我 <a href="kaizmaker@gmail.com">Email</a> © 2019
+    </Footer>
+  </div>
 )
 
 Layout.propTypes = {
@@ -45,6 +36,15 @@ export const query = graphql`
         title
         description
         keywords
+      }
+    }
+    allContentfulLink(sort: { fields: [createdAt], order: ASC }) {
+      edges {
+        node {
+          title
+          url
+          createdAt
+        }
       }
     }
   }
