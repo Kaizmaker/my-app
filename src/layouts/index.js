@@ -4,7 +4,7 @@ import Helmet from 'react-helmet'
 
 import Header from '../components/header'
 import './index.css'
-import Footer from '../components/Footer';
+// import Footer from '../components/Footer'
 
 const Layout = ({ children, data }) => (
   <div>
@@ -17,9 +17,10 @@ const Layout = ({ children, data }) => (
     />
     <Header />
     {children()}
-    <Footer data={data}>
-      網站由React建置 Figma設計 歡迎聯絡我 <a href="kaizmaker@gmail.com">Email</a> © 2019
-    </Footer>
+    {/* <Footer data={data}>
+      網站由React建置 Figma設計 歡迎聯絡我{' '}
+      <a href="kaizmaker@gmail.com">Email</a> © 2019
+    </Footer> */}
   </div>
 )
 
